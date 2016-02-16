@@ -1,0 +1,29 @@
+h1{
+  color:blue;
+  font-family:verdana;
+  font-size: 300%;
+}
+
+p{
+   color:green;
+   font-family:courier;
+   font-size:160%;
+   border: 1px solid green;
+   padding: 10px;
+   margin:30px;
+}
+
+p#p01{
+   color: blue;
+}
+
+p.error{
+  color : red;
+}
+
+<style>
+    a:link    {color:green; background-color:transparent; text-decoration:none}
+    a:visited {color:lightgrey; background-color:transparent; text-decoration:none}
+    a:hover   {color:black; background-color:transparent; text-decoration:underline}
+    a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+</style>
